@@ -1,0 +1,157 @@
+.contacts_footer{
+    background-color:var(--secondary-background-color) ;
+    padding: 60px 0px;
+   
+ }
+
+
+.address_item:not(:first-child) {
+    margin-top: 9px;
+}
+
+ .link_map {
+    font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 1.71;
+letter-spacing: 0.03em;
+color:var(--primary-text-color-theme-dark);
+transition: color var(--transition-dur-and-func);
+ }
+
+ .link_mail, .link_tel {
+    font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 1.71;
+letter-spacing: 0.03em;
+color:var(--secondary-text-color-theme-dark);
+transition: color var(--transition-dur-and-func);
+ }
+
+ .link_map:hover , .link_mail:hover , .link_tel:hover ,
+ .link_map:focus , .link_mail:focus , .link_tel:focus {
+    color: var(--accent-color);
+ }
+
+
+
+.link_icons_address{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    background: rgba(255, 255, 255, 0.1);
+    transition: background-color var(--transition-dur-and-func);
+}
+
+.link_icons_address:hover , .link_icons_address:focus {
+    background-color: var(--accent-color);
+}
+
+.link_icons_address:hover .icon_add,
+.linl_icons_address:focus .icon_add {
+    fill:var(--secondary-color-icons);
+}
+
+.subtitle_address{
+ font-weight: 700;
+font-size: 14px;
+line-height: 1.14;
+letter-spacing: 0.03em;
+text-transform: uppercase;
+color:var(--primary-text-color-theme-dark);
+margin-bottom: 20px;
+}
+
+.icon_add {
+    width: 20px;
+    height: 20px;
+    fill:var(--secondary-color-icons);
+    transition: fill var(--transition-dur-and-func);
+}
+
+.page_footer{
+    display:flex;
+    align-items: baseline;
+}
+
+.social_list_address{
+display: flex;
+column-gap: 10px;
+}
+
+.address_icons{
+    margin-left: 70px;
+}
+
+.subtitle_subscription {
+    font-weight: 700;
+font-size: 14px;
+line-height: 1.14;
+letter-spacing: 0.03em;
+text-transform: uppercase;
+color: var(--primary-text-color-theme-dark);
+margin-bottom: 20px;
+
+}
+
+.subscription_mail{
+    width: 358px;
+    height: 50px;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+border-radius: 4px;
+background: none;
+color: rgba(255, 255, 255, 0.6);
+display: block;
+outline: none;
+padding-left: 16px;
+transition:border var(--transition-dur-and-func), box-shadow var(--transition-dur-and-func);
+}
+ 
+.subscription_mail:focus  {
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+}
+
+.btn_subscription{
+    font-weight: 700;
+font-size: 16px;
+line-height: 1.88;
+letter-spacing: 0.06em;
+color: var(--primary-text-color-theme-dark);
+background-color: var(--accent-color);
+align-items: center;
+display: flex;
+justify-content: center;
+min-width: 200px;
+padding: 10px 28px;
+transition:background-color var(--transition-dur-and-func), color var(--transition-dur-and-func);
+}
+
+.btn_subscription:hover , .btn_subscription:focus {
+    background:#188CE8;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+border-radius: 4px;
+color: var(--primary-text-color-theme-dark);
+}
+
+.icon_subscription{
+    fill: var(--secondary-color-icons);
+    margin-left: 10px;
+}
+
+.subscription{
+    margin-left:auto;
+  
+  
+}
+.subscription_list{
+    display: flex;
+    column-gap: 12px;
+    justify-content: center;
+
+}
