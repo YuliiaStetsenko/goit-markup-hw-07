@@ -8,12 +8,9 @@
     margin-top: 9px;
 }
 
+
 .link_map {
-    font-style: normal;
-font-weight: 400;
-font-size: 14px;
-line-height: 1.71;
-letter-spacing: 0.03em;
+    @include font(400, 14px, 1.71, 0.03cm);
 color:var(--primary-text-color-theme-dark);
 transition: color var(--transition-dur-and-func);
 
@@ -23,11 +20,8 @@ transition: color var(--transition-dur-and-func);
  }
 
  .link_mail, .link_tel {
+        @include font(400, 14px, 1.71, 0.03cm);
     font-style: normal;
-font-weight: 400;
-font-size: 14px;
-line-height: 1.71;
-letter-spacing: 0.03em;
 color:var(--secondary-text-color-theme-dark);
 transition: color var(--transition-dur-and-func);
 
@@ -54,10 +48,7 @@ transition: color var(--transition-dur-and-func);
 
 
 .subtitle_address{
- font-weight: 700;
-font-size: 14px;
-line-height: 1.14;
-letter-spacing: 0.03em;
+    @include font(700, 14px, 1.14, 0.03cm);
 text-transform: uppercase;
 color:var(--primary-text-color-theme-dark);
 margin-bottom: 20px;
@@ -90,10 +81,7 @@ column-gap: 10px;
 }
 
 .subtitle_subscription {
-    font-weight: 700;
-font-size: 14px;
-line-height: 1.14;
-letter-spacing: 0.03em;
+    @include font(700, 14px, 1.14, 0.03cm);
 text-transform: uppercase;
 color: var(--primary-text-color-theme-dark);
 margin-bottom: 20px;
@@ -120,10 +108,7 @@ transition:border var(--transition-dur-and-func), box-shadow var(--transition-du
 }
 
 .btn_subscription{
-    font-weight: 700;
-font-size: 16px;
-line-height: 1.88;
-letter-spacing: 0.06em;
+    @include font(700, 16px, 1.88, 0.06cm);
 color: var(--primary-text-color-theme-dark);
 background-color: var(--accent-color);
 align-items: center;

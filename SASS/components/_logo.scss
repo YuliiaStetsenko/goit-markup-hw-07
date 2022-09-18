@@ -1,9 +1,13 @@
+@mixin font($fw, $fs, $lh, $ls) {
+    font-weight: $fw;
+    font-size: $fs;
+    line-height: $lh;
+    letter-spacing:$ls;
+    }
+
 .first_logo{
+    @include font(700, 26px, 1.19, 0.03cm);
     font-family: 'Raleway',sans-serif;
-    font-weight: 700;
-    font-size: 26px;
-    line-height: 1.19;
-    letter-spacing: 0.03em;
         color:var(--first-logo-text-color);
         text-decoration: none;
    margin-right: 93px;
@@ -16,11 +20,8 @@
     }
 
     .second_logo{
+        @include font(700, 26px, 1.19, 0.03cm);
         font-family:'Raleway',sans-serif;
-        font-weight: 700;
-        font-size: 26px;
-        line-height: 1.19;
-        letter-spacing: 0.03em;
             color:var(--accent-color) ;
             color:var(--primary-text-color-theme-dark);
             text-decoration: none; 

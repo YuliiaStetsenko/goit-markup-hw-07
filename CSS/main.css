@@ -98,11 +98,11 @@ section {
 }
 
 .first_logo {
-  font-family: "Raleway", sans-serif;
   font-weight: 700;
   font-size: 26px;
   line-height: 1.19;
-  letter-spacing: 0.03em;
+  letter-spacing: 0.03cm;
+  font-family: "Raleway", sans-serif;
   color: var(--first-logo-text-color);
   text-decoration: none;
   margin-right: 93px;
@@ -115,11 +115,11 @@ section {
 }
 
 .second_logo {
-  font-family: "Raleway", sans-serif;
   font-weight: 700;
   font-size: 26px;
   line-height: 1.19;
-  letter-spacing: 0.03em;
+  letter-spacing: 0.03cm;
+  font-family: "Raleway", sans-serif;
   color: var(--accent-color);
   color: var(--primary-text-color-theme-dark);
   text-decoration: none;
@@ -177,11 +177,11 @@ section {
 }
 
 .modal_form_title {
-  font-size: 20px;
   font-weight: 700;
+  font-size: 20px;
   line-height: 1.15;
+  letter-spacing: 0.03cm;
   text-align: center;
-  letter-spacing: 0.03em;
   color: var(--primary-text-color-theme-light);
   margin-bottom: 12px;
 }
@@ -310,9 +310,9 @@ section {
   font-weight: 700;
   font-size: 16px;
   line-height: 1.88;
+  letter-spacing: 0.06cm;
   align-items: center;
   text-align: center;
-  letter-spacing: 0.06em;
   background-color: var(--accent-color);
   color: var(--primary-text-color-theme-dark);
   border-radius: 4px;
@@ -346,7 +346,7 @@ section {
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
-  letter-spacing: 0.02em;
+  letter-spacing: 0.02cm;
   color: var(--primary-text-color-theme-light);
   transition: color var(--transition-dur-and-func);
   position: relative;
@@ -367,7 +367,7 @@ section {
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
-  letter-spacing: 0.02em;
+  letter-spacing: 0.02cm;
   color: var(--secondary-text-color-theme-light);
   display: flex;
   align-items: center;
@@ -415,8 +415,8 @@ section {
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
+  letter-spacing: 0.06cm;
   text-align: center;
-  letter-spacing: 0.06em;
   text-transform: uppercase;
   color: var(--primary-text-color-theme-dark);
   width: 696px;
@@ -427,9 +427,9 @@ section {
   font-weight: 700;
   font-size: 16px;
   line-height: 1.88;
+  letter-spacing: 0.06cm;
   align-items: center;
   text-align: center;
-  letter-spacing: 0.06em;
   background-color: var(--accent-color);
   color: var(--primary-text-color-theme-dark);
   border-radius: 4px;
@@ -459,7 +459,7 @@ section {
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
-  letter-spacing: 0.03em;
+  letter-spacing: 0.03cm;
   text-transform: uppercase;
   color: var(--primary-text-color-theme-light);
   margin-top: 30px;
@@ -467,11 +467,10 @@ section {
 }
 
 .text_about_us {
-  font-style: normal;
   font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
-  letter-spacing: 0.03em;
+  letter-spacing: 0.03cm;
   color: var(--secondary-text-color-theme-light);
 }
 
@@ -489,12 +488,12 @@ section {
 }
 
 .title_what_we_do {
-  font-style: normal;
   font-weight: 700;
   font-size: 36px;
   line-height: 1.17;
+  letter-spacing: 0.03cm;
+  font-style: normal;
   text-align: center;
-  letter-spacing: 0.03em;
   color: var(--primary-text-color-theme-light);
   margin-bottom: 50px;
 }
@@ -529,12 +528,12 @@ section {
 }
 
 .title_our_team {
-  font-style: normal;
   font-weight: 700;
   font-size: 36px;
   line-height: 1.17;
+  letter-spacing: 0.03cm;
+  font-style: normal;
   text-align: center;
-  letter-spacing: 0.03em;
   color: var(--primary-text-color-theme-light);
   margin-bottom: 50px;
 }
@@ -567,12 +566,12 @@ section {
 }
 
 .item_our_team {
-  font-style: normal;
   font-weight: 400;
   font-size: 16px;
   line-height: 1.19;
+  letter-spacing: 0.03cm;
+  font-style: normal;
   text-align: center;
-  letter-spacing: 0.03em;
   color: var(--secondary-text-color-theme-light);
 }
 
@@ -656,11 +655,10 @@ section {
 }
 
 .link_map {
-  font-style: normal;
   font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
-  letter-spacing: 0.03em;
+  letter-spacing: 0.03cm;
   color: var(--primary-text-color-theme-dark);
   transition: color var(--transition-dur-and-func);
 }
@@ -669,11 +667,11 @@ section {
 }
 
 .link_mail, .link_tel {
-  font-style: normal;
   font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
-  letter-spacing: 0.03em;
+  letter-spacing: 0.03cm;
+  font-style: normal;
   color: var(--secondary-text-color-theme-dark);
   transition: color var(--transition-dur-and-func);
 }
@@ -699,7 +697,7 @@ section {
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
-  letter-spacing: 0.03em;
+  letter-spacing: 0.03cm;
   text-transform: uppercase;
   color: var(--primary-text-color-theme-dark);
   margin-bottom: 20px;
@@ -733,7 +731,7 @@ section {
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
-  letter-spacing: 0.03em;
+  letter-spacing: 0.03cm;
   text-transform: uppercase;
   color: var(--primary-text-color-theme-dark);
   margin-bottom: 20px;
@@ -761,7 +759,7 @@ section {
   font-weight: 700;
   font-size: 16px;
   line-height: 1.88;
-  letter-spacing: 0.06em;
+  letter-spacing: 0.06cm;
   color: var(--primary-text-color-theme-dark);
   background-color: var(--accent-color);
   align-items: center;

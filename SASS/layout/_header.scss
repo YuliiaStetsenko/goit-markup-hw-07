@@ -16,18 +16,15 @@
         padding-top: 32px;
         padding-bottom:32px ;
     }
- 
-    .menu_link  {
-font-weight: 500;
-font-size: 14px;
-line-height: 1.14;
-letter-spacing: 0.02em;
-color:var(--primary-text-color-theme-light);
-transition:color var(--transition-dur-and-func);
-position: relative;
-padding-top:32px;
-padding-bottom: 32px;;
-}
+
+        .menu_link  {
+            @include font(500, 14px, 1.14, 0.02cm);
+        color:var(--primary-text-color-theme-light);
+        transition:color var(--transition-dur-and-func);
+        position: relative;
+        padding-top:32px;
+        padding-bottom: 32px;;
+        }
  
 .contacts_header{
     display: flex;
@@ -40,10 +37,7 @@ padding-bottom: 32px;;
 
 
   .contact_link {
-    font-weight: 500;
-    font-size: 14px;
-    line-height: 1.14;
-    letter-spacing: 0.02em;
+    @include font(500, 14px, 1.14, 0.02cm);
     color:var(--secondary-text-color-theme-light);
     display: flex;
     align-items: center;

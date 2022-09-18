@@ -12,12 +12,10 @@ height: 600px;
 margin: 0 auto;
 }
 
+
     .title_main{
-font-weight: 900;
-font-size: 44px;
-line-height: 1.36;
+        @include font(900, 44px, 1.36, 0.06cm);
 text-align: center;
-letter-spacing: 0.06em;
 text-transform: uppercase;
 color:var(--primary-text-color-theme-dark);
 width: 696px;
@@ -27,12 +25,9 @@ margin: 0 auto;
  }
 
  .btn_main {
-    font-weight: 700;
-    font-size: 16px;
-    line-height: 1.88;
+    @include font(700, 16px, 1.88, 0.06cm);
     align-items: center;
     text-align: center;
-    letter-spacing: 0.06em;
     background-color:var(--accent-color);
         color:var(--primary-text-color-theme-dark);
         border-radius: 4px;
