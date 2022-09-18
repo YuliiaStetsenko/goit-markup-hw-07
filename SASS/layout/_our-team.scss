@@ -60,7 +60,7 @@ margin-top: 16px;
   
    }
 
-.link_icons_team{
+   .link_icons_team{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -70,6 +70,10 @@ margin-top: 16px;
    color:var(--primary-color-icons);
    transition: background-color var(--transition-dur-and-func),color var(--transition-dur-and-func);
    
+   &:hover , &:focus {
+    background-color: var(--accent-color);
+    color: var(--primary-background-color);
+  }
 }
 
 .icon {
@@ -77,16 +81,9 @@ margin-top: 16px;
     height: 20px;
     fill: currentColor;
     transition: fill var(--transition-dur-and-func);
-}
-
-
-
-.link_icons_team:hover , .link_icons_team:focus {
-    background-color: var(--accent-color);
-    color: var(--primary-background-color);
-}
-
-.link_icons_team:hover .icon,
-.link_icons_team:focus .icon {
+    
+    .link_icons_team:hover &,
+.link_icons_team:focus & {
     fill:var(--secondary-color-icons);
+  }
 }

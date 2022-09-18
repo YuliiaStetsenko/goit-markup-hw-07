@@ -22,22 +22,20 @@
       fill: currentColor;
     }
     
-    
     .link_logo{
-        border-radius: 4px;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-    width: 170px;
-    height:92px;
-    border: 1px solid #AFB1B8;
-    color: var(--primary-color-icons);
-    transition: color var(--transition-dur-and-func) , border-color var(--transition-dur-and-func);
-    
+      border-radius: 4px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+  width: 170px;
+  height:92px;
+  border: 1px solid #AFB1B8;
+  color: var(--primary-color-icons);
+  transition: color var(--transition-dur-and-func) , border-color var(--transition-dur-and-func);
+     
+     &:hover , &:focus{
+      border-color: var(--accent-color);
+      color:var(--accent-color);
     }
-    
-    .link_logo:hover , .link_logo:focus{
-        border-color: var(--accent-color);
-        color:var(--accent-color);
-    }
+  }
     

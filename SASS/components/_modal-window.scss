@@ -27,10 +27,10 @@ background: #FFFFFF;
 
   }
 
-.modal-close-icon{
-transition: fill var(--transition-dur-and-func);
-}
-
-  .modal-close-icon:focus , .modal-close-icon:hover {
-    fill: var(--accent-color);
-  }
+  .modal-close-icon{
+    transition: fill var(--transition-dur-and-func);
+    
+     &:focus , &:hover {
+        fill: var(--accent-color);
+      }
+    }
