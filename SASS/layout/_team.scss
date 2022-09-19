@@ -76,8 +76,8 @@ margin-top: 16px;
     fill: currentColor;
     transition: fill var(--transition-dur-and-func);
     
-    .link_icons_team:hover &,
-.link_icons_team:focus & {
+    .social_list__link:hover &,
+.social_list__link:focus & {
     fill:var(--secondary-color-icons);
   }
 }
