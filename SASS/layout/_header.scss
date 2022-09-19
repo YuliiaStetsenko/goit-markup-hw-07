@@ -17,13 +17,13 @@
         padding-bottom:32px ;
     }
 
-        .menu_link  {
+        .menu__link  {
             @include font(500, 14px, 1.14, 0.02cm);
         color:var(--primary-text-color-theme-light);
         transition:color var(--transition-dur-and-func);
         position: relative;
         padding-top:32px;
-        padding-bottom: 32px;;
+        padding-bottom: 32px;
         }
  
 .contacts_header{
@@ -36,15 +36,15 @@
   }
 
 
-  .contact_link {
+  .contacts_header__link {
     @include font(500, 14px, 1.14, 0.02cm);
     color:var(--secondary-text-color-theme-light);
     display: flex;
     align-items: center;
     transition:color var(--transition-dur-and-func);
     
-    .menu_link:hover , &:hover, 
-    .menu_link:focus , &:focus 
+    .menu__link:hover , &:hover, 
+    .menu__link:focus , &:focus 
      {
      color:var(--accent-color);
       }
@@ -66,7 +66,7 @@
       }
     }
 
-.icon_contact{
+    .contacts_header__icon{
     margin-right: 10px;
     fill: currentColor;
    }

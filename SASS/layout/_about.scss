@@ -1,9 +1,9 @@
-.about_us{
+.about__list{
     display: flex;
     align-items: flex-start;
 }
 
-.card {
+.about__card {
     flex-basis: calc((100% - 90px)/4);
      &:not(:last-child) {
     margin-right: 30px;
@@ -11,23 +11,23 @@
 }
 
 
-    .title_about_us {
+    .about__title {
         @include font(700, 14px,1.14, 0.03cm);
     text-transform: uppercase;
         color:var(--primary-text-color-theme-light);
        margin-top: 30px;
         margin-bottom: 10px;
     }
-     .text_about_us{
+     .about__text{
          @include font(400, 14px,1.71, 0.03cm);
     color:var(--secondary-text-color-theme-light);
      }
 
- .bcg{
+ .about__background{
     background-color: #F5F4FA;
 border-radius: 4px;
  }
 
- .icons_about_us{
+ .about__icon{
 margin: 25px 100px;
  }

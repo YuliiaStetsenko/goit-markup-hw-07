@@ -1,8 +1,8 @@
-.page_our_team{
+.page_team{
     background-color:var(--team-buttons-background-color);
 }
 
- .title_our_team{
+ .team__title{
     @include font(700, 36px, 1.17, 0.03cm);
 font-style: normal;
 text-align: center;
@@ -10,13 +10,13 @@ text-align: center;
     margin-bottom: 50px;
  }
  
-.our_team{
+.team_list{
    margin-top: 50px;
    display: flex;
    column-gap: 30px;  
 }
 
- .content_our_team {
+ .team_list__content {
         width: 270px;
     background-color:var(--primary-background-color) ;
     box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
@@ -24,11 +24,11 @@ border-radius: 0px 0px 4px 4px;
 
  }
 
-.text_our_team{
+.team_list__text{
     padding: 30px 0;
 }
 
- .subtitle_our_team {
+ .team_list__subtitle {
     font-style: normal;
     font-weight: 500;
     font-size: 16px;
@@ -38,7 +38,7 @@ border-radius: 0px 0px 4px 4px;
     margin-bottom: 10px;
  }
 
- .item_our_team {
+ .team_list__item {
     @include font(400, 16px, 1.19, 0.03cm);
 font-style: normal;
 text-align: center;
@@ -54,7 +54,7 @@ margin-top: 16px;
   
    }
 
-   .link_icons_team{
+   .social_list__link{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -70,7 +70,7 @@ margin-top: 16px;
   }
 }
 
-.icon {
+.social_list__icon {
     width: 20px;
     height: 20px;
     fill: currentColor;

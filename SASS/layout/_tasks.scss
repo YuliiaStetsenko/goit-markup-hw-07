@@ -1,7 +1,7 @@
-.page_what_we_do {
+.page_tasks {
     padding-top:0;
     }
-     .title_what_we_do {
+     .tasks__title {
         @include font(700, 36px, 1.17, 0.03cm);
     font-style: normal;
     text-align: center;
@@ -9,12 +9,12 @@
         margin-bottom: 50px;
      }
     
-    .what_we_do{
+    .tasks_list{
         display: flex;
         column-gap: 30px;
     }
     
-    .overlay_what_we_do{
+    .tasks_list__overlay {
         position: absolute;
         width: 370px;
     height: 70px;
@@ -29,6 +29,6 @@
      justify-content: center;
      align-items: center;
     }
-    .item_what_we_do{
+    .tasks_list__item{
         position: relative;
     }

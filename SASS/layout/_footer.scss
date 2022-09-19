@@ -1,15 +1,15 @@
-.contacts_footer{
+.page_footer{
     background-color:var(--secondary-background-color) ;
     padding: 60px 0px;
    
  }
 
-.address_item:not(:first-child) {
+.footer_address__contacts:not(:first-child) {
     margin-top: 9px;
 }
 
 
-.link_map {
+.footer_address__map {
     @include font(400, 14px, 1.71, 0.03cm);
 color:var(--primary-text-color-theme-dark);
 transition: color var(--transition-dur-and-func);
@@ -19,7 +19,7 @@ transition: color var(--transition-dur-and-func);
    }
  }
 
- .link_mail, .link_tel {
+ .footer_address__mail, .footer_address__tel {
         @include font(400, 14px, 1.71, 0.03cm);
     font-style: normal;
 color:var(--secondary-text-color-theme-dark);
@@ -31,7 +31,7 @@ transition: color var(--transition-dur-and-func);
  }
 
  
- .link_icons_address{
+ .footer_social__link{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -47,40 +47,40 @@ transition: color var(--transition-dur-and-func);
 }
 
 
-.subtitle_address{
+.footer_social__title{
     @include font(700, 14px, 1.14, 0.03cm);
 text-transform: uppercase;
 color:var(--primary-text-color-theme-dark);
 margin-bottom: 20px;
 }
 
-.icon_add {
+.footer_social__icon {
     width: 20px;
     height: 20px;
     fill:var(--secondary-color-icons);
     transition: fill var(--transition-dur-and-func);
     
-    .link_icons_address:hover &,
-.linl_icons_address:focus & {
+    .footer_social__link:hover &,
+.footer_social__link:focus & {
     fill:var(--secondary-color-icons);
   }
 }
 
-.page_footer{
+.footer{
     display:flex;
     align-items: baseline;
 }
 
-.social_list_address{
+.footer_social__list{
 display: flex;
 column-gap: 10px;
 }
 
-.address_icons{
+.footer_social{
     margin-left: 70px;
 }
 
-.subtitle_subscription {
+.footer_subscription__title {
     @include font(700, 14px, 1.14, 0.03cm);
 text-transform: uppercase;
 color: var(--primary-text-color-theme-dark);
@@ -88,7 +88,7 @@ margin-bottom: 20px;
 
 }
 
-.subscription_mail{
+.footer_subscription__mail{
     width: 358px;
     height: 50px;
   border: 1px solid rgba(255, 255, 255, 0.3);
@@ -107,7 +107,7 @@ transition:border var(--transition-dur-and-func), box-shadow var(--transition-du
   }
 }
 
-.btn_subscription{
+.footer_subscription__button {
     @include font(700, 16px, 1.88, 0.06cm);
 color: var(--primary-text-color-theme-dark);
 background-color: var(--accent-color);
@@ -126,17 +126,17 @@ color: var(--primary-text-color-theme-dark);
   }
 }
 
-.icon_subscription{
+.footer_subscription__icon {
     fill: var(--secondary-color-icons);
     margin-left: 10px;
 }
 
-.subscription{
+.footer_subscription{
     margin-left:auto;
   
   
 }
-.subscription_list{
+.footer_subscription__content{
     display: flex;
     column-gap: 12px;
     justify-content: center;
