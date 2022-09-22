@@ -3,7 +3,10 @@
 }
 
  .team__title{
-    @include font(700, 36px, 1.17, 0.03cm);
+        font-weight: 700;
+font-size: 36px;
+line-height: 1.17;
+letter-spacing: 0.03em;
 font-style: normal;
 text-align: center;
     color:var(--primary-text-color-theme-light);
@@ -39,7 +42,10 @@ border-radius: 0px 0px 4px 4px;
  }
 
  .team_list__item {
-    @include font(400, 16px, 1.19, 0.03cm);
+        font-weight: 400;
+font-size: 16px;
+line-height: 1.19;
+letter-spacing: 0.03em;
 font-style: normal;
 text-align: center;
     color:var(--secondary-text-color-theme-light);

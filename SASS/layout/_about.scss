@@ -12,14 +12,21 @@
 
 
     .about__title {
-        @include font(700, 14px,1.14, 0.03cm);
+        font-weight: 700;
+        font-size: 14px;
+        line-height: 1.14;
+        letter-spacing: 0.03em;
     text-transform: uppercase;
         color:var(--primary-text-color-theme-light);
        margin-top: 30px;
         margin-bottom: 10px;
     }
-     .about__text{
-         @include font(400, 14px,1.71, 0.03cm);
+     .about__text {
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 1.71;
+        letter-spacing: 0.03em;
     color:var(--secondary-text-color-theme-light);
      }
 

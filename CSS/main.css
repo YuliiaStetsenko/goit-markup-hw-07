@@ -329,7 +329,7 @@ section {
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 }
 
-.page_header_container {
+.header__container {
   display: flex;
   align-items: center;
 }
@@ -349,12 +349,15 @@ section {
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
-  letter-spacing: 0.02cm;
+  letter-spacing: 0.02em;
   color: var(--primary-text-color-theme-light);
   transition: color var(--transition-dur-and-func);
   position: relative;
   padding-top: 32px;
   padding-bottom: 32px;
+}
+.menu__link:hover, .menu__link:focus {
+  color: var(--accent-color);
 }
 
 .contacts_header {
@@ -370,14 +373,13 @@ section {
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
-  letter-spacing: 0.02cm;
+  letter-spacing: 0.02em;
   color: var(--secondary-text-color-theme-light);
   display: flex;
   align-items: center;
   transition: color var(--transition-dur-and-func);
 }
-.contacts_header__link .menu__link:hover, .contacts_header__link:hover,
-.contacts_header__link .menu__link:focus, .contacts_header__link:focus {
+.contacts_header__link:hover, .contacts_header__link:focus {
   color: var(--accent-color);
 }
 
@@ -418,7 +420,7 @@ section {
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
-  letter-spacing: 0.06cm;
+  letter-spacing: 0.06em;
   text-align: center;
   text-transform: uppercase;
   color: var(--primary-text-color-theme-dark);
@@ -430,7 +432,7 @@ section {
   font-weight: 700;
   font-size: 16px;
   line-height: 1.88;
-  letter-spacing: 0.06cm;
+  letter-spacing: 0.06em;
   align-items: center;
   text-align: center;
   background-color: var(--accent-color);
@@ -462,7 +464,7 @@ section {
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
-  letter-spacing: 0.03cm;
+  letter-spacing: 0.03em;
   text-transform: uppercase;
   color: var(--primary-text-color-theme-light);
   margin-top: 30px;
@@ -470,10 +472,11 @@ section {
 }
 
 .about__text {
+  font-style: normal;
   font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
-  letter-spacing: 0.03cm;
+  letter-spacing: 0.03em;
   color: var(--secondary-text-color-theme-light);
 }
 
@@ -494,7 +497,7 @@ section {
   font-weight: 700;
   font-size: 36px;
   line-height: 1.17;
-  letter-spacing: 0.03cm;
+  letter-spacing: 0.03em;
   font-style: normal;
   text-align: center;
   color: var(--primary-text-color-theme-light);
@@ -534,7 +537,7 @@ section {
   font-weight: 700;
   font-size: 36px;
   line-height: 1.17;
-  letter-spacing: 0.03cm;
+  letter-spacing: 0.03em;
   font-style: normal;
   text-align: center;
   color: var(--primary-text-color-theme-light);
@@ -572,7 +575,7 @@ section {
   font-weight: 400;
   font-size: 16px;
   line-height: 1.19;
-  letter-spacing: 0.03cm;
+  letter-spacing: 0.03em;
   font-style: normal;
   text-align: center;
   color: var(--secondary-text-color-theme-light);
@@ -606,7 +609,7 @@ section {
   fill: currentColor;
   transition: fill var(--transition-dur-and-func);
 }
-.link_icons_team:hover .social_list__icon, .link_icons_team:focus .social_list__icon {
+.social_list__link:hover .social_list__icon, .social_list__link:focus .social_list__icon {
   fill: var(--secondary-color-icons);
 }
 
@@ -661,7 +664,7 @@ section {
   font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
-  letter-spacing: 0.03cm;
+  letter-spacing: 0.03em;
   color: var(--primary-text-color-theme-dark);
   transition: color var(--transition-dur-and-func);
 }
@@ -673,7 +676,7 @@ section {
   font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
-  letter-spacing: 0.03cm;
+  letter-spacing: 0.03em;
   font-style: normal;
   color: var(--secondary-text-color-theme-dark);
   transition: color var(--transition-dur-and-func);
@@ -699,8 +702,8 @@ section {
 .footer_social__title {
   font-weight: 700;
   font-size: 14px;
-  line-height: 1.14;
-  letter-spacing: 0.03cm;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
   text-transform: uppercase;
   color: var(--primary-text-color-theme-dark);
   margin-bottom: 20px;
@@ -734,7 +737,7 @@ section {
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
-  letter-spacing: 0.03cm;
+  letter-spacing: 0.03em;
   text-transform: uppercase;
   color: var(--primary-text-color-theme-dark);
   margin-bottom: 20px;
@@ -762,7 +765,7 @@ section {
   font-weight: 700;
   font-size: 16px;
   line-height: 1.88;
-  letter-spacing: 0.06cm;
+  letter-spacing: 0.06em;
   color: var(--primary-text-color-theme-dark);
   background-color: var(--accent-color);
   align-items: center;
